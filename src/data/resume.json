@@ -1,0 +1,444 @@
+{
+  "basics": {
+    "name": "Israel Pérez",
+    "email": "tiperez.dev@gmail.com",
+    "website" : "israelperez.pro",
+    "location" : "Camarillo, California"
+  },
+  "summary": "Senior .NET Software Engineer with 10+ years of experience building, modernizing, and operating real-world software systems at scale. Focused on backend architecture, distributed systems, legacy modernization, document automation, and CI/CD. Known for long-term system ownership, pragmatic engineering decisions, and leading technical initiatives using .NET, Azure, and SQL Server.",
+  "strengths": [
+    {
+      "summary": "Enterprise-Grade System Ownership",
+      "description": "Designed, evolved, and maintained large-scale production systems used by real clients, balancing reliability, performance, and long-term maintainability across years of active development.",
+      "icon": "🧱"
+    },
+    {
+      "summary": "Legacy-to-Modern Transformation",
+      "description": "Modernized complex legacy applications by refactoring, decoupling business logic, and introducing modern architectural patterns without disrupting existing users.",
+      "icon": "🔄"
+    },
+    {
+      "summary": "Delivery & Automation at Scale",
+      "description": "Established CI/CD pipelines from scratch, automating builds, testing, deployments, and migrations to improve delivery speed, reliability, and team confidence.",
+      "icon": "🚀"
+    },
+    {
+      "summary": "Performance, Scalability & Reliability",
+      "description": "Improved system performance and stability by diagnosing production issues, identifying root causes, and applying caching strategies, asynchronous processing, event-driven design, and database optimizations to support high-volume, real-world workloads.",
+      "icon": "⚙️"
+    },
+    {
+      "summary": "Technical Leadership & Collaboration",
+      "description": "Led technical initiatives, guided teams through Agile delivery, mentored developers, and worked closely with designers, IT, and stakeholders to deliver cohesive solutions.",
+      "icon": "🤝"
+    },
+    {
+      "summary": "Adaptability & Continuous Learning",
+      "description": "Evaluated emerging technologies, pivoted solutions when needed and quickly applied new tools to solve real-world problems.",
+      "icon": "🧠"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Senior Software Developer",
+      "company": "Loffa Interactive Group",
+      "location": "Scottsdale, AZ",
+      "dates": {
+        "start": "2017-07",
+        "end": "2026-01"
+      },
+      "summary": "Owned and modernized SEC-facing financial compliance platforms used in production by regulated clients. Led legacy ASP.NET Web Forms modernization, built distributed services and event-driven workflows on Azure Service Bus, and delivered document automation. Improved performance and reliability through SQL optimization, caching, and CI/CD automation across dev-to-prod environments.",
+      "highlights": [
+        "Served as Senior .NET Engineer on a team of 3–6 developers, acting as technical lead for multiple features and releases.",
+        "Built and enhanced financial compliance platforms supporting both client-facing applications and administrative (super-admin) systems.",
+        "Led transformation of legacy ASP.NET Web Forms applications, refactoring code-behind logic using SOLID principles, GoF design patterns, and unit testing.",
+        "Worked extensively with Telerik Web Forms controls, including custom control development and performance/usability optimization.",
+        "Designed and implemented document automation workflows, including OCR pipelines (traditional and AI-assisted) and high-throughput auto-import processes.",
+        "Participated in an early-stage initiative to train machine learning models for document analysis; later transitioned to LLM-based AI document recognition solutions.",
+        "Improved system performance through in-memory caching strategies and reduction of excessive database and service calls.",
+        "Architected and developed 5+ .NET microservices using .NET Framework and .NET Core, including internal SDKs for service consumption.",
+        "Implemented event-driven, distributed systems using Azure Service Bus (pub/sub, queues, dead-letter handling, sessions, claim-check pattern).",
+        "Developed Windows Services for asynchronous and long-running background processes.",
+        "Designed and optimized SQL Server schemas, stored procedures, and queries, supporting datasets exceeding 1M+ records.",
+        "Led Agile delivery via Jira Scrum boards, sprint planning, backlog grooming, and task assignment.",
+        "Built end-to-end CI/CD pipelines from scratch using Azure DevOps, including automated testing, deployments, backups, and database migrations.",
+        "Supported environments from local development through UAT, assisting IT with staging and production troubleshooting.",
+        "Contributed to the development of financial compliance applications used by clients to meet SEC regulatory requirements (Regulation T 220.8, Rules 17a-4 and 17a-13(b)(3)).",
+        "Collaborated with designers and leadership to provide technical and product guidance for the company brand guide, corporate website, and product logos, including the primary company logo."
+      ],
+      "skills": [
+        {
+          "area": "Core Languages & Frameworks",
+          "items": [
+            "C#",
+            ".NET Framework",
+            ".NET Core",
+            "ASP.NET Web Forms",
+            "LINQ",
+            "ADO.NET",
+            "Dapper"
+          ]
+        },
+        {
+          "area": "Architecture & Backend",
+          "items": [
+            "Microservices",
+            "Distributed Systems",
+            "Event-Driven Architecture",
+            "Windows Services",
+            "REST APIs",
+            "In-Memory Caching",
+            "Internal SDKs"
+          ]
+        },
+        {
+          "area": "Cloud & Messaging",
+          "items": [
+            "Azure Service Bus",
+            "Pub/Sub",
+            "Queues",
+            "Dead-letter Handling",
+            "Sessions",
+            "Claim-check Pattern"
+          ]
+        },
+        {
+          "area": "DevOps & Delivery",
+          "items": [
+            "Azure DevOps",
+            "CI/CD",
+            "Automated Testing",
+            "Deployments",
+            "Database Migrations",
+            "Backups"
+          ]
+        },
+        {
+          "area": "Data & Databases",
+          "items": [
+            "SQL Server",
+            "Stored Procedures",
+            "Query Optimization",
+            "Schema Design"
+          ]
+        },
+        {
+          "area": "UI & Components",
+          "items": [
+            "Telerik Web Forms",
+            "Custom Controls",
+            "Performance Optimization",
+            "Usability Optimization"
+          ]
+        },
+        {
+          "area": "AI / Document Automation",
+          "items": [
+            "OCR Pipelines",
+            "Document Automation Workflows",
+            "LLM-based Document Recognition",
+            "Model Training (early-stage)"
+          ]
+        },
+        {
+          "area": "Agile & Collaboration",
+          "items": [
+            "Jira",
+            "Scrum",
+            "Sprint Planning",
+            "Backlog Grooming",
+            "Technical Leadership",
+            "Cross-Functional Collaboration"
+          ]
+        },
+        {
+          "area": "Compliance Domain",
+          "items": [
+            "SEC Regulatory Requirements",
+            "Regulation T 220.8",
+            "Rule 17a-4",
+            "Rule 17a-13(b)(3)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Software Developer / IT Manager",
+      "company": "Grupo Red Software Solutions",
+      "location": "Mexicali, B.C., Mexico",
+      "dates": {
+        "start": "2012-11",
+        "end": "2016-09"
+      },
+      "summary": "Delivered full-stack web and business systems for multiple client industries, translating designs into production websites and building custom admin platforms. Modernized and supported legacy financial applications while leading a small team (3–4) for ongoing delivery. Solved complex integration problems including GPS route tracking, real-time WebSocket communication, and internal IT infrastructure operations.",
+      "highlights": [
+        "Delivered fast-paced, full-stack websites, transforming Photoshop mockups into functional web applications using HTML, CSS, JavaScript, and jQuery.",
+        "Built custom administrative panels enabling clients to manage website content and business data.",
+        "Progressed to developing ASP.NET Web Forms applications, supporting business and financial systems.",
+        "Maintained and enhanced legacy financial applications, later leading a team of 3–4 developers responsible for ongoing support and improvements.",
+        "Solved complex technical challenges, including GPS-based route tracking and fare estimation for a taxi-style application.",
+        "Delivered front-end development training to junior developers.",
+        "Led client requirement gathering and translated business needs into technical solutions.",
+        "Managed Active Directory, internal IT systems, and server infrastructure.",
+        "Administered SQL, web, and source-control servers.",
+        "Supported mobile application development using PhoneGap.",
+        "Implemented WebSocket-based communication using Node.js."
+      ],
+      "skills": [
+        {
+          "area": "Front-End",
+          "items": ["HTML", "CSS", "JavaScript", "jQuery"]
+        },
+        {
+          "area": "Backend / Web",
+          "items": ["ASP.NET Web Forms", "Web Applications", "Admin Panels"]
+        },
+        {
+          "area": "Data & Databases",
+          "items": ["SQL (Administration)"]
+        },
+        {
+          "area": "Realtime / Integration",
+          "items": ["WebSockets", "Node.js"]
+        },
+        {
+          "area": "Mobile",
+          "items": ["PhoneGap"]
+        },
+        {
+          "area": "Leadership & Delivery",
+          "items": [
+            "Team Leadership",
+            "Mentorship",
+            "Requirements Gathering",
+            "Client Communication",
+            "Training"
+          ]
+        },
+        {
+          "area": "IT & Infrastructure",
+          "items": [
+            "Active Directory",
+            "Server Administration",
+            "Internal IT Systems",
+            "Web Servers",
+            "Source Control Servers"
+          ]
+        },
+        {
+          "area": "Problem Solving",
+          "items": ["GPS Route Tracking", "Fare Estimation"]
+        }
+      ]
+    },
+    {
+      "title": "IT Intern",
+      "company": "Newell Rubbermaid",
+      "location": "Mexicali, B.C., Mexico",
+      "dates": {
+        "start": "2012-02",
+        "end": "2012-06"
+      },
+      "summary": "Supported factory and office IT operations in a manufacturing environment, improving network reliability through a hands-on MDF reorganization and cabling documentation project. Installed and maintained network hardware and assisted end users while supporting enterprise tools and systems.",
+      "highlights": [
+        "Led a hands-on infrastructure project to reorganize, label, and restructure the factory’s main distribution frame (MDF).",
+        "Replaced, rerouted, and documented network cabling across production areas to improve reliability and maintainability.",
+        "Installed and maintained network hardware, routers, patch panels, and enterprise systems.",
+        "Provided technical support and end-user assistance.",
+        "Supported enterprise tools including Microsoft Office and SAP."
+      ],
+      "skills": [
+        {
+          "area": "IT & Infrastructure",
+          "items": [
+            "MDF Reorganization",
+            "Network Cabling",
+            "Documentation",
+            "Routers",
+            "Patch Panels",
+            "Network Hardware"
+          ]
+        },
+        {
+          "area": "Support",
+          "items": ["End-User Support", "Troubleshooting"]
+        },
+        {
+          "area": "Enterprise Tools",
+          "items": ["Microsoft Office", "SAP"]
+        }
+      ]
+    },
+    {
+      "title": "PHP Developer",
+      "company": "Facturas Mil (Invoice Process)",
+      "location": "Mexicali, B.C., Mexico",
+      "dates": {
+        "start": "2011-06",
+        "end": "2011-12"
+      },
+      "summary": "Built and shipped a production invoicing web application end-to-end, enabling configurable, print-ready invoice generation for day-to-day business use. Delivered a working system that supported real operations and revenue via invoice creation, printing, and sales.",
+      "highlights": [
+        "Collaborated from initial concept through full product delivery of a web-based invoicing application.",
+        "Designed and developed a system capable of generating print-ready invoices using configurable templates.",
+        "Delivered a working product that enabled the client to print and sell invoices to customers, supporting real business operations."
+      ],
+      "skills": [
+        {
+          "area": "Backend / Web",
+          "items": ["PHP", "Web Applications"]
+        },
+        {
+          "area": "Product Delivery",
+          "items": ["End-to-End Delivery", "Client Collaboration"]
+        },
+        {
+          "area": "Document Generation",
+          "items": ["Invoice Templates", "Print-Ready Output"]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Computer Systems",
+      "school": "Instituto Tecnológico de Mexicali",
+      "year": "2012"
+    }
+  ],
+  "technicalSkills": [
+    {
+      "area": "Core Languages & Frameworks",
+      "items": [
+        "C#",
+        ".NET",
+        "ASP.NET",
+        "LINQ",
+        "Entity Framework",
+        "ADO.NET",
+        "Dapper"
+      ]
+    },
+
+    {
+      "area": "Cloud & DevOps",
+      "items": [
+        "Azure",
+        "Azure DevOps",
+        "Docker",
+        "Git",
+        "CI/CD",
+        "Azure Service Bus",
+        "Azure App Services",
+        "Azure Storage",
+        "Azure Key Vault",
+        "SAST Automation",
+        "Secure SDLC"
+      ]
+    },
+
+    {
+      "area": "UI & Front-End",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "ASP.NET Web Forms",
+        "Bootstrap",
+        "jQuery",
+        "React",
+        "TypeScript",
+        "Telerik",
+        "DevExpress"
+      ]
+    },
+
+    {
+      "area": "Data",
+      "items": [
+        "Microsoft SQL Server",
+        "MySQL",
+        "Query Tuning",
+        "Stored Procedures",
+        "Schema Design"
+      ]
+    },
+
+    {
+      "area": "Tooling",
+      "items": [
+        "Visual Studio",
+        "Visual Studio Code",
+        "Postman",
+        "Claude CLI",
+        "Eclipse"
+      ]
+    },
+
+    {
+      "area": "Architecture & Backend",
+      "items": [
+        "Microservices",
+        "Distributed Systems",
+        "Event-Driven Architecture",
+        "Windows Services",
+        "REST APIs",
+        "DDD",
+        "CQRS",
+        "WebSockets",
+        "In-Memory Caching"
+      ]
+    },
+
+    {
+      "area": "Agile & Delivery",
+      "items": [
+        "Scrum",
+        "Agile Methodologies",
+        "Jira",
+        "Sprint Planning",
+        "Backlog Grooming",
+        "Release Management"
+      ]
+    },
+
+    {
+      "area": "Testing",
+      "items": ["Automated Testing (Unit & UI)"]
+    },
+
+    {
+      "area": "Collaboration & Leadership",
+      "items": [
+        "Technical Leadership",
+        "Cross-Functional Collaboration",
+        "Mentorship",
+        "Requirements Analysis",
+        "Stakeholder Communication"
+      ]
+    },
+
+    {
+      "area": "IT & Infrastructure",
+      "items": [
+        "Active Directory",
+        "Server Administration",
+        "Network Cabling & MDF Work",
+        "End-User Support",
+        "SAP (User Support)"
+      ]
+    },
+
+    {
+      "area": "Additional Knowledge",
+      "items": [
+        "Node.js",
+        "Java",
+        "PHP",
+        "Python",
+        "Applied AI / LLM-Based Document Recognition"
+      ]
+    }
+  ]
+}

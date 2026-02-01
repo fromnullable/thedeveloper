@@ -1,0 +1,118 @@
+:root {
+  --bs-primary-rgb: 143, 188, 187;
+  --bs-secondary-rgb: 59, 66, 82;
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-color: #eceff4;
+}
+
+[data-bs-theme="dark"] {
+  --bs-highlight-bg: #537cae;
+}
+
+.accordion {
+  --bs-accordion-active-color: #d8dee9;
+  --bs-accordion-active-bg: #434c5e;
+}
+
+.nav {
+  --bs-link-color: #5e81ac;
+}
+
+.bg-dark {
+  background-color: rgb(39, 42, 45) !important;
+}
+
+.badge.merge {
+  background-color: rgb(83, 124, 174) !important;
+}
+
+.badge {
+  --bs-badge-color: #d8dee9;
+  background-color: #3b4252;
+}
+
+.code-snippet {
+  border-radius: 8px;
+  overflow: auto;
+  font-size: 0.9rem;
+  border: 0.0625em solid rgb(76, 86, 106);
+}
+
+.code-snippet pre {
+  margin: 0;
+  padding: 12px;
+}
+
+div.console {
+  border: 0.0625em solid rgb(76, 86, 106);
+  background-color: rgb(37, 37, 37);
+}
+
+div.console div {
+  background: #2e3440;
+  padding: 3px;
+}
+
+.console .consoleBody {
+  padding: 4px;
+  overflow-y: scroll;
+  margin-bottom: 0;
+  font-family: Consolas, Monaco, "Lucida Console", monospace;
+  background-color: #3b4252;
+  color: #d8dee9;
+}
+
+.copy-btn {
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+/* reveal on hover */
+.code-snippet-wrapper:hover .copy-btn {
+  opacity: 0.75;
+}
+
+snippet styling .code-snippet pre {
+  margin: 0;
+  padding: 12px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.container-header {
+  background-color: #2e3440;
+}
+
+.decorative-canvas {
+  display: unset;
+  pointer-events: none;
+  position: absolute;
+  inset: 0px;
+}
+
+.deco {
+  color: currentColor;
+  transform: translate3d(0, 0, 0) rotate(var(--rot)) scale(var(--scale));
+  animation: floaty var(--dur) ease-in-out var(--delay) infinite alternate;
+  will-change: transform;
+}
+
+@keyframes floaty {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(var(--rot)) scale(var(--scale));
+  }
+  100% {
+    transform: translate3d(var(--dx), var(--dy), 0)
+      rotate(calc(var(--rot) * -1)) scale(var(--scale));
+  }
+}
+
+@media (max-width: 576px) {
+  .deco {
+    opacity: 0.08 !important;
+  }
+}
+
