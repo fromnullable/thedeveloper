@@ -9,7 +9,7 @@ export default function SummaryConsole({ summary }) {
         <CardHeader>
             <i className="bi bi-terminal pl-6"></i> Summary
         </CardHeader>      
-        <CardBody style={{ whiteSpace: 'pre-line' }} className='consoleBody' >
+        <CardBody style={{ whiteSpace: 'pre-line' }} className='consoleBody '  >
             {'C:\\users\\developer>type summary.txt'}
             <br />
             <mark className='lh-lg'>{summary || ''}</mark>

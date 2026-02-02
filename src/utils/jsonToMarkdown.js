@@ -24,9 +24,11 @@ function mdSkillsGroups(groups = []) {
 }
 
 export function jsonToMarkdown(resume) {
-  const name = resume?.basics?.name ?? "—";
-  const email = resume?.basics?.email ?? "—";
-  const summary = resume?.summary ?? "—";
+  const name = resume?.basics?.name ?? "-";
+  const location = resume?.basics?.location ?? "-"
+  const email = resume?.basics?.email ?? "-";
+  const website = resume?.basics.website ?? "-";
+  const summary = resume?.summary ?? "-";
 
   const strengths = (resume?.strengths ?? [])
     .map((s) => {
@@ -75,7 +77,10 @@ ${skills}
 
   return `# ${name}
 
-**Email:** ${email}
+- **Localtion:** ${location}
+- **Email:** <${email}>
+- **Web Site:** <https://${website}>
+
 
 ## Summary
 ${summary}

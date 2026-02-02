@@ -38,6 +38,7 @@ export function jsonToPdf(resume) {
     resume?.basics?.location,
     resume?.basics?.phone,
     resume?.basics?.email,
+    resume?.basics?.website,
   ].filter(Boolean).join(" • ");
   doc.text(contact || "—", margin, y);
   line(18);
