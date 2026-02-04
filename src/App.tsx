@@ -91,7 +91,7 @@ function App() {
 
         <section
           id={"experience"}
-          className="py-lg-5 py-xl-5 position-relative"
+          className="pb-lg-5 pb-xl-5 position-relative"
         >
           <ExperienceDecorativeCanvas></ExperienceDecorativeCanvas>
 
