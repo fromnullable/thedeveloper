@@ -352,7 +352,8 @@
         "TypeScript",
         "Telerik",
         "DevExpress",
-        "AngularJs"
+        "AngularJs",
+        "Storybook"
       ]
     },
 
@@ -408,7 +409,14 @@
 
     {
       "area": "Testing",
-      "items": ["Automated Testing (Unit & UI)","Selenium","XUnit","NUnit","Fluent Assertions"]
+      "items": [
+          "Automated Testing (Unit & UI)",
+          "Selenium",
+          "XUnit",
+          "NUnit",
+          "Fluent Assertions",
+          "Playwright"
+        ]
     },
 
     {

@@ -22,6 +22,7 @@ const iconMap = {
   "TypeScript": "devicon-typescript-plain",
   "Node.js": "devicon-nodejs-plain",
   "AngularJs" : "devicon-angularjs-plain",
+  "Storybook" : "devicon-storybook-plain",
 
   // Data
   "Microsoft SQL Server": "devicon-microsoftsqlserver-plain",
@@ -40,7 +41,8 @@ const iconMap = {
   "Python": "devicon-python-plain",
 
   // Testing
-  "Selenium" : "devicon-selenium-original"
+  "Selenium" : "devicon-selenium-original",
+  "Playwright" : "devicon-playwright-plain"
 };
 
 const normalizeItem = (s = "") => s.trim();
