@@ -36,13 +36,13 @@ export default function ExperienceSection({ experience }) {
           return (
             <div key={`${job.company}-${job.title}-${idx}`} className="p-xl-3 py-3">
               <div
-                className="text-muted small font-monospace mb-1"
+                className="text-muted small font-monospace mb-1 position-relative "
                 title={fullHash}
                 style={{ cursor: 'help' }}
                 >
                 {formatDates(job.dates)}
 
-                <Badge bg="secondary" className='float-end merge' >{shortHash || '…'} </Badge>
+                <Badge  bg='info' className='merge   text-bg-info position-absolute  top-0 end-0' >{shortHash || '...'} </Badge>
                 
               </div>
 

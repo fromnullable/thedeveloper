@@ -21,6 +21,7 @@ const iconMap = {
   "React": "devicon-react-original",
   "TypeScript": "devicon-typescript-plain",
   "Node.js": "devicon-nodejs-plain",
+  "AngularJs" : "devicon-angularjs-plain",
 
   // Data
   "Microsoft SQL Server": "devicon-microsoftsqlserver-plain",
@@ -37,6 +38,9 @@ const iconMap = {
   "Java": "devicon-java-plain",
   "PHP": "devicon-php-plain",
   "Python": "devicon-python-plain",
+
+  // Testing
+  "Selenium" : "devicon-selenium-original"
 };
 
 const normalizeItem = (s = "") => s.trim();

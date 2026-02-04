@@ -11,9 +11,9 @@ import Badge from "react-bootstrap/esm/Badge";
 export default function Strengths({ strengths }) {
   return (
     <div className="row row-cols-lg-3 row-cols-xl-3 row-cols-1 g-4">
-      {strengths.map((s) => {
+      {strengths.map((s,i) => {
         return (
-          <div>
+          <div key={`strenght-${i}`} >
             <Card className="bg-dark shadow  h-100">
               <CardBody>
                 <h1>

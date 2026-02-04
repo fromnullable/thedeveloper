@@ -3,7 +3,8 @@
     "name": "Israel Pérez",
     "email": "tiperez.dev@gmail.com",
     "website" : "israelperez.pro",
-    "location" : "Camarillo, California"
+    "location" : "Camarillo, California",
+    "linkedIn" : "israel-perez-pro"
   },
   "summary": "Senior .NET Software Engineer with 10+ years of experience building, modernizing, and operating real-world software systems at scale. Focused on backend architecture, distributed systems, legacy modernization, document automation, and CI/CD. Known for long-term system ownership, pragmatic engineering decisions, and leading technical initiatives using .NET, Azure, and SQL Server.",
   "strengths": [
@@ -350,7 +351,8 @@
         "React",
         "TypeScript",
         "Telerik",
-        "DevExpress"
+        "DevExpress",
+        "AngularJs"
       ]
     },
 
@@ -387,7 +389,8 @@
         "DDD",
         "CQRS",
         "WebSockets",
-        "In-Memory Caching"
+        "In-Memory Caching",
+        "TDD"
       ]
     },
 
@@ -405,7 +408,7 @@
 
     {
       "area": "Testing",
-      "items": ["Automated Testing (Unit & UI)"]
+      "items": ["Automated Testing (Unit & UI)","Selenium","XUnit","NUnit","Fluent Assertions"]
     },
 
     {

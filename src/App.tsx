@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <header>
-        <AppNavbar name={resume.basics?.name} />
+        <AppNavbar name={resume.basics?.name} linkedin={resume.basics?.linkedIn}  />
       </header>
       <main>
         <section id={"hero"} className="position-relative">
@@ -78,21 +78,16 @@ function App() {
                   </p>
 
                   <ExportIcons data={resume}></ExportIcons>
+
+
+
                 </div>
               </Col>
             </Row>
           </Container>
         </section>
 
-        <section id={"strenghts"} className="py-1">
-          <Container className="py-4 py-lg-5 py-xl-5">
-            <Row>
-              <Col>
-                <Strengths strengths={resume.strengths || []} />
-              </Col>
-            </Row>
-          </Container>
-        </section>
+
 
         <section
           id={"experience"}
@@ -108,6 +103,16 @@ function App() {
             </Row>
           </Container>
         </section>
+
+        <section id={"strenghts"} className="py-1">
+          <Container className="py-4 py-lg-5 py-xl-5">
+            <Row>
+              <Col>
+                <Strengths strengths={resume.strengths || []} />
+              </Col>
+            </Row>
+          </Container>
+        </section>        
 
         <section id={"toolbox"}>
           <Container className="my-5">
