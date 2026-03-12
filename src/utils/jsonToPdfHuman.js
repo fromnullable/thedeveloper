@@ -72,8 +72,8 @@ function renderResumeToDoc(doc, resume, { fontFamily = "helvetica" } = {}) {
   const pageHeight = doc.internal.pageSize.getHeight();
 
   const marginX = 54;
-  const marginTop = 54;
-  const marginBottom = 54;
+  const marginTop = 40;
+  const marginBottom = 40;
 
   const maxWidth = pageWidth - marginX * 2;
   const rightEdge = pageWidth - marginX;

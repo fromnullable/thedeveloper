@@ -18,7 +18,7 @@ export function jsonToPdf(resume) {
   const pageWidth = doc.internal.pageSize.getWidth();
   const pageHeight = doc.internal.pageSize.getHeight();
 
-  const margin = 48;
+  const margin = 24;
   const maxWidth = pageWidth - margin * 2;
 
   let y = margin;
